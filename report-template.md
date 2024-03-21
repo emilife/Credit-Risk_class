@@ -1,4 +1,4 @@
-# Module 12 Report Template
+# Module 20 Report Template
 
 ## Overview of the Analysis
 
@@ -19,11 +19,16 @@ Using bulleted lists, describe the accuracy scores and the precision and recall 
 * Machine Learning Model 1:
     * Description of Model 1 Accuracy, Precision, and Recall scores.
 
-## Summary
-
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
+## Summary Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. 
+Obhective is to train and evaluate a model based on loan risk. You’ll use a dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers.
 
 * Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
+
+Answer:0 is represented better. It preforms better becouse the precsion is 1.00.
+
+* Does performance depend on the problem we are trying to solve? How well does the logistic regression model predict both the 0 (healthy loan) and 1 (high-risk loan) labels?
+
+Answer: It is able predict poeple that arent at risk is 0 and people at risk is 1.
 
 If you do not recommend any of the models, please justify your reasoning.
+Answer: Recomended company use logistic regression model for the reason listed above.
